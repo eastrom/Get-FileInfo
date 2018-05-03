@@ -1,9 +1,6 @@
 # Get-FileInfo
 Gather information about fileshares/folders
 
-# Get-Fileinfo
-Get Information about Files in a folder
-
     <#
     .SYNOPSIS
     File Inventory
@@ -68,8 +65,9 @@ PS C:\Users\User\OneDrive\PowerShell\Inventory>Get-FileInfo -FolderPath "C:\Temp
 
 ```
 
-Path|FileName|Extension|LastWriteTime|LastAccessTime|FileSizeKB|FileSizeMB|RootFolder
-C:\Temp\Onedrive\File.csv|File.csv|.csv|2018-04-16 04:26:06 PM|2018-04-16 04:26:06 PM|4.3603515625|0|C:\Temp
+Path|FileName|Extension|LastWriteTime|LastAccessTime|FileSizeKB|FileSizeMB|RootFolder|
+
+C:\Temp\Onedrive\File.csv|File.csv|.csv|2018-04-16 04:26:06 PM|2018-04-16 04:26:06 PM|4.3603515625|0|C:\Temp|
 
 
 ## Running the tests
