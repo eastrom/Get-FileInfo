@@ -64,7 +64,7 @@ $Inventorydata = foreach ($UF in $UsersFolders.Fullname) {
         }
         If($ExportToCsv -eq $true){
             $Inventorydata | Export-Csv -Path $CsvPath -Encoding UTF8 -NoTypeInformation
-            "File saved to $CsvPath"
+            "Info Added to $CsvPath from $FolderPath"
         }ELSE{
             $Inventorydata
         }

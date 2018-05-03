@@ -64,8 +64,16 @@ Or
 PS C:\Users\User\OneDrive\PowerShell\Inventory>Get-FileInfo -FolderPath "C:\Temp" -ExportToCsv -CsvPath 'C:\csv\Folderinfo.csv'
 
 ```
+Inventory of users homefolders
+```
 
+$Folders = Get-ChildItem -Path 'F:\FileShares\Users' -Directory 
 
+Foreach($folder in $Folders){
+Get-FileInfo -FolderPath $Folder.fullname -ExportToCsv -CsvPath C:\Temp\UserInventory\Allusers.csv
+}
+
+```
 ## Running the tests
 
 Explain how to run the automated tests for this system
