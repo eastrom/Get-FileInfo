@@ -64,10 +64,10 @@ Or
 PS C:\Users\User\OneDrive\PowerShell\Inventory>Get-FileInfo -FolderPath "C:\Temp" -ExportToCsv -CsvPath 'C:\csv\Folderinfo.csv'
 
 ```
+Example Output:
 
-Path|FileName|Extension|LastWriteTime|LastAccessTime|FileSizeKB|FileSizeMB|RootFolder|
-
-C:\Temp\Onedrive\File.csv|File.csv|.csv|2018-04-16 04:26:06 PM|2018-04-16 04:26:06 PM|4.3603515625|0|C:\Temp|
+|Path|FileName|Extension|LastWriteTime|LastAccessTime|FileSizeKB|FileSizeMB|RootFolder|
+|C:\Temp\Onedrive\File.csv|File.csv|.csv|2018-04-16 04:26:06 PM|2018-04-16 04:26:06 PM|4.3603515625|0|C:\Temp|
 
 
 ## Running the tests
@@ -79,9 +79,7 @@ Explain how to run the automated tests for this system
 * [Powershell](https://docs.microsoft.com/en-us/powershell/scripting/powershell-scripting?view=powershell-6) - Powershell is king
 
 
-## Versioning
 
-We use 
 
 ## Authors
 
